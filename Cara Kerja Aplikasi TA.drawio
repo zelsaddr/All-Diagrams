@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T05:06:10.111Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="H6eOqWYVV1WlNkD3dHDa" version="21.3.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-05-30T05:11:38.150Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="agvRvWo31LfHKXW3lrq1" version="21.3.5" type="github" pages="7">
   <diagram name="Page-1" id="SwCO3sKbL-J0L6yQdvk1">
     <mxGraphModel dx="1379" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -898,10 +898,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="V-V7rDg4Ms_Hr4aa75Xz-1" value="Activity Diagram Log Management &amp;amp; Detection" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="170" width="880" height="1480" as="geometry" />
+          <mxGeometry x="80" y="170" width="870" height="1180" as="geometry" />
         </mxCell>
         <mxCell id="V-V7rDg4Ms_Hr4aa75Xz-2" value="User" style="swimlane;startSize=20;html=1;" vertex="1" parent="V-V7rDg4Ms_Hr4aa75Xz-1">
-          <mxGeometry y="20" width="410" height="1460" as="geometry" />
+          <mxGeometry y="20" width="410" height="1160" as="geometry" />
         </mxCell>
         <mxCell id="V-V7rDg4Ms_Hr4aa75Xz-3" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="V-V7rDg4Ms_Hr4aa75Xz-2">
           <mxGeometry x="140" y="50" width="30" height="30" as="geometry" />
@@ -1007,7 +1007,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="V-V7rDg4Ms_Hr4aa75Xz-6" value="Sistem" style="swimlane;startSize=20;html=1;" vertex="1" parent="V-V7rDg4Ms_Hr4aa75Xz-1">
-          <mxGeometry x="410" y="20" width="470" height="1460" as="geometry" />
+          <mxGeometry x="410" y="20" width="460" height="1160" as="geometry" />
         </mxCell>
         <mxCell id="V-V7rDg4Ms_Hr4aa75Xz-18" value="Menampilkan halaman domain yang dipilih, info log &amp;amp; form upload log" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="V-V7rDg4Ms_Hr4aa75Xz-6">
           <mxGeometry x="180.62" y="180" width="138.75" height="40" as="geometry" />
@@ -1157,6 +1157,80 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="730" y="860" as="sourcePoint" />
             <mxPoint x="450" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3J30sIG3tKa_2VJrO4-3" name="Page-7">
+    <mxGraphModel dx="1379" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yukymPuFYCnlMwH_HCM5-1" value="Activity Diagram Export Report" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="170" width="530" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="yukymPuFYCnlMwH_HCM5-2" value="User" style="swimlane;startSize=20;html=1;" vertex="1" parent="yukymPuFYCnlMwH_HCM5-1">
+          <mxGeometry y="20" width="270" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="yukymPuFYCnlMwH_HCM5-3" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="yukymPuFYCnlMwH_HCM5-2">
+          <mxGeometry x="120" y="50" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yukymPuFYCnlMwH_HCM5-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yukymPuFYCnlMwH_HCM5-2" source="yukymPuFYCnlMwH_HCM5-3" target="yukymPuFYCnlMwH_HCM5-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yukymPuFYCnlMwH_HCM5-5" value="Pilih File Log untuk di ekspor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yukymPuFYCnlMwH_HCM5-2">
+          <mxGeometry x="86.25" y="110" width="97.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yukymPuFYCnlMwH_HCM5-20" value="Download file report" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yukymPuFYCnlMwH_HCM5-2">
+          <mxGeometry x="86.25" y="220" width="97.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yukymPuFYCnlMwH_HCM5-13" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="yukymPuFYCnlMwH_HCM5-2">
+          <mxGeometry x="120" y="300" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yukymPuFYCnlMwH_HCM5-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="yukymPuFYCnlMwH_HCM5-2" source="yukymPuFYCnlMwH_HCM5-20" target="yukymPuFYCnlMwH_HCM5-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="340" as="sourcePoint" />
+            <mxPoint x="310" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yukymPuFYCnlMwH_HCM5-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yukymPuFYCnlMwH_HCM5-1" source="yukymPuFYCnlMwH_HCM5-5" target="yukymPuFYCnlMwH_HCM5-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="360" as="sourcePoint" />
+            <mxPoint x="310" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="150" />
+              <mxPoint x="210" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yukymPuFYCnlMwH_HCM5-6" value="Sistem" style="swimlane;startSize=20;html=1;" vertex="1" parent="yukymPuFYCnlMwH_HCM5-1">
+          <mxGeometry x="270" y="20" width="260" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="yukymPuFYCnlMwH_HCM5-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yukymPuFYCnlMwH_HCM5-6" source="yukymPuFYCnlMwH_HCM5-14" target="yukymPuFYCnlMwH_HCM5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yukymPuFYCnlMwH_HCM5-8" value="meringkas menjadi pdf" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yukymPuFYCnlMwH_HCM5-6">
+          <mxGeometry x="70" y="150" width="97.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yukymPuFYCnlMwH_HCM5-11" value="mengirim attachment ke user" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yukymPuFYCnlMwH_HCM5-6">
+          <mxGeometry x="70" y="220" width="97.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yukymPuFYCnlMwH_HCM5-14" value="Mengambil semua data log dari domain" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yukymPuFYCnlMwH_HCM5-6">
+          <mxGeometry x="70" y="70" width="97.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yukymPuFYCnlMwH_HCM5-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yukymPuFYCnlMwH_HCM5-6" source="yukymPuFYCnlMwH_HCM5-8" target="yukymPuFYCnlMwH_HCM5-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129" y="120" as="sourcePoint" />
+            <mxPoint x="129" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yukymPuFYCnlMwH_HCM5-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="yukymPuFYCnlMwH_HCM5-1" source="yukymPuFYCnlMwH_HCM5-11" target="yukymPuFYCnlMwH_HCM5-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399" y="290" as="sourcePoint" />
+            <mxPoint x="399" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
