@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T11:34:21.400Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="qBsvj5sIqxdU7USkhNFH" version="21.3.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-06-13T11:35:47.328Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="6ki45nMAvfRxdW2Z5zZI" version="21.3.8" type="github" pages="8">
   <diagram name="Page-1" id="SwCO3sKbL-J0L6yQdvk1">
     <mxGraphModel dx="1363" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -956,7 +956,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="V-V7rDg4Ms_Hr4aa75Xz-29" value="Analyze" style="rounded=1;whiteSpace=wrap;html=1;" parent="V-V7rDg4Ms_Hr4aa75Xz-2" vertex="1">
+        <mxCell id="V-V7rDg4Ms_Hr4aa75Xz-29" value="&lt;i&gt;Analyze&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="V-V7rDg4Ms_Hr4aa75Xz-2" vertex="1">
           <mxGeometry x="160" y="380" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="V-V7rDg4Ms_Hr4aa75Xz-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="V-V7rDg4Ms_Hr4aa75Xz-2" source="V-V7rDg4Ms_Hr4aa75Xz-26" target="V-V7rDg4Ms_Hr4aa75Xz-29" edge="1">
@@ -1028,10 +1028,10 @@
         <mxCell id="V-V7rDg4Ms_Hr4aa75Xz-18" value="Menampilkan halaman domain yang dipilih, info log &amp;amp; form upload log" style="rounded=1;whiteSpace=wrap;html=1;" parent="V-V7rDg4Ms_Hr4aa75Xz-6" vertex="1">
           <mxGeometry x="99.63" y="180" width="138.75" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="V-V7rDg4Ms_Hr4aa75Xz-39" value="Read Log File &amp;amp; Parse Log File dengan Regex" style="rounded=1;whiteSpace=wrap;html=1;" parent="V-V7rDg4Ms_Hr4aa75Xz-6" vertex="1">
+        <mxCell id="V-V7rDg4Ms_Hr4aa75Xz-39" value="Read Log File &amp;amp; Parse Log File dengan &lt;i&gt;Regex&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="V-V7rDg4Ms_Hr4aa75Xz-6" vertex="1">
           <mxGeometry x="101.50000000000001" y="360" width="135.01" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="V-V7rDg4Ms_Hr4aa75Xz-41" value="Deteksi Serangan berdasarkan pattern regex yang tersimpan di database" style="rounded=1;whiteSpace=wrap;html=1;" parent="V-V7rDg4Ms_Hr4aa75Xz-6" vertex="1">
+        <mxCell id="V-V7rDg4Ms_Hr4aa75Xz-41" value="Deteksi Serangan berdasarkan pattern &lt;i&gt;Regex &lt;/i&gt;yang tersimpan di database" style="rounded=1;whiteSpace=wrap;html=1;" parent="V-V7rDg4Ms_Hr4aa75Xz-6" vertex="1">
           <mxGeometry x="97.75" y="430" width="142.51" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V-V7rDg4Ms_Hr4aa75Xz-42" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="V-V7rDg4Ms_Hr4aa75Xz-6" vertex="1">
@@ -1049,7 +1049,7 @@
             <mxPoint x="168.99999999999977" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="V-V7rDg4Ms_Hr4aa75Xz-45" value="Melabeli Raw Text Log dengan serangan sesuai pattern yang terdeteksi atau valid (SQLi, XSS, LFI)" style="rounded=1;whiteSpace=wrap;html=1;" parent="V-V7rDg4Ms_Hr4aa75Xz-6" vertex="1">
+        <mxCell id="V-V7rDg4Ms_Hr4aa75Xz-45" value="Melabeli Raw Text Log dengan serangan sesuai pattern yang terdeteksi atau valid (SQLi, XSS, LFI) &amp;amp; Melabeli Crawler Bot" style="rounded=1;whiteSpace=wrap;html=1;" parent="V-V7rDg4Ms_Hr4aa75Xz-6" vertex="1">
           <mxGeometry x="18.999999999999993" y="640" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="V-V7rDg4Ms_Hr4aa75Xz-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="V-V7rDg4Ms_Hr4aa75Xz-6" source="V-V7rDg4Ms_Hr4aa75Xz-42" target="V-V7rDg4Ms_Hr4aa75Xz-45" edge="1">
@@ -1167,8 +1167,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fPhFsh_g3KMNLC7YRlvb-5" value="Deteksi Crawler Bot dengan Boyer Moore" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="V-V7rDg4Ms_Hr4aa75Xz-6">
-          <mxGeometry x="101.5" y="510" width="135.01" height="40" as="geometry" />
+        <mxCell id="fPhFsh_g3KMNLC7YRlvb-5" value="Deteksi Crawler Bot berdasarkan user-agent dengan Boyer Moore" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="V-V7rDg4Ms_Hr4aa75Xz-6">
+          <mxGeometry x="101.5" y="510" width="135.01" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fPhFsh_g3KMNLC7YRlvb-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="V-V7rDg4Ms_Hr4aa75Xz-6" source="fPhFsh_g3KMNLC7YRlvb-5" target="V-V7rDg4Ms_Hr4aa75Xz-47">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
